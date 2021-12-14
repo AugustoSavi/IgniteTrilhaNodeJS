@@ -1,0 +1,27 @@
+{
+  "name": "IgniteTrilhaNodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustoSavi/IgniteTrilhaNodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugustoSavi/IgniteTrilhaNodeJS/issues"
+  },
+  "homepage": "https://github.com/AugustoSavi/IgniteTrilhaNodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
