@@ -1,0 +1,8 @@
+{
+    "type": "postgres",
+    "post": 5432,
+    "host": "localhost",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "rentx"
+}

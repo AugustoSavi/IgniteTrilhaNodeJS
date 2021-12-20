@@ -6,25 +6,25 @@
 Rodar aplicação
 
 ```bash
-docker-compose up
+sudo docker-compose up
 ```
 
 Parar aplicação
 
 ```bash
-docker-compose down
+sudo docker-compose down
 ```
 
 Acessar container da aplicação
 
 ```bash
-docker exec -it rentx /bin/bash
+sudo docker exec -it rentx /bin/bash
 ```
 
 Acompanhar logs da aplicação
 
 ```bash
-docker logs rentx -f
+sudo docker logs rentx -f
 ```
 
 <h2 align="center"> Schema </h2>
