@@ -27,6 +27,23 @@ Acompanhar logs da aplicação
 sudo docker logs rentx -f
 ```
 
+Criar migration
+
+````bash
+npm run typeorm:migrate <NameDaMigration>
+```
+
+Rodar migrations
+
+````bash
+npm run typeorm:run
+```
+
+Desfazer ultima migration
+
+````bash
+npm run typeorm:revert
+```
 <h2 align="center"> Schema </h2>
 
 ![db](https://xesque.rocketseat.dev/1571029149847-attachment.png)

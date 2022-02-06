@@ -4,5 +4,9 @@
     "host": "localhost",
     "username": "postgres",
     "password": "postgres",
-    "database": "rentx"
+    "database": "rentx",
+    "migrations": ["./src/database/migrations/*{.ts,.js}"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
 }
