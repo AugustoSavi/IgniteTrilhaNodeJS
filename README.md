@@ -29,19 +29,19 @@ sudo docker logs rentx -f
 
 Criar migration
 
-````bash
+```bash
 npm run typeorm:migrate <NameDaMigration>
 ```
 
 Rodar migrations
 
-````bash
+```bash
 npm run typeorm:run
 ```
 
 Desfazer ultima migration
 
-````bash
+```bash
 npm run typeorm:revert
 ```
 <h2 align="center"> Schema </h2>
